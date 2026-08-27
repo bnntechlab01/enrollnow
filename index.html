@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BNN TECH</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      background-color: #0b0f19;
+      color: #e2e8f0;
+      font-family: 'Inter', system-ui, sans-serif;
+    }
+    .glass-card {
+      background: rgba(18, 25, 41, 0.75);
+      backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    }
+    .glow-cyan {
+      box-shadow: 0 0 40px rgba(56, 189, 248, 0.15);
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between">
+
+  <!-- Top Navigation (Desktop Full-Width) -->
+  <nav class="sticky top-0 z-50 glass-card px-10 py-4 flex items-center justify-between border-b border-slate-800 w-full">
+    <div class="flex items-center gap-3">
+      <i class="fa-brands fa-linux text-3xl text-sky-400"></i>
+      <span class="text-xl font-bold tracking-wider bg-gradient-to-r from-sky-400 to-purple-500 bg-clip-text text-transparent">
+        bnntechlinux.com
+      </span>
+    </div>
+
+    <a href="https://forms.gle/iFKpm2wJvvvGTxL86" target="_blank" class="px-6 py-2.5 rounded-full bg-sky-500 hover:bg-sky-400 text-slate-950 font-bold text-xs uppercase tracking-wider transition-all">
+      Enroll Now
+    </a>
+  </nav>
+
+  <!-- Main Container (Desktop Large Screen Optimized) -->
+  <main class="w-full max-w-[1600px] mx-auto px-8 py-10 flex-grow space-y-12">
+
+    <!-- Instructor Feature Banner (Hero Section) -->
+    <section id="instructor" class="w-full glass-card rounded-3xl p-10 lg:p-14 glow-cyan border border-sky-500/20 relative overflow-hidden">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+        
+        <!-- Photo Column -->
+        <div class="lg:col-span-4 flex flex-col items-center justify-center">
+          <div class="relative w-64 h-64 lg:w-80 lg:h-80 rounded-3xl overflow-hidden border-2 border-sky-400/50 shadow-2xl shadow-sky-500/20">
+            <!-- ဆရာ့ပုံအမှန်ထည့်ရန် src တွင် ပြောင်းပါ -->
+            <img src="bzm.jpg" alt="Instructor Bo Zin Myo" class="w-full h-full object-cover">
+            <div class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-slate-950/90 to-transparent p-4 text-center">
+              <span class="text-xs font-bold text-emerald-400 flex items-center justify-center gap-2">
+                <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse"></span>
+                Founder & Instructor
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Instructor Info Column -->
+        <div class="lg:col-span-8 space-y-6">
+          <div>
+            <span class="text-xs font-bold uppercase tracking-widest text-sky-400 bg-sky-500/10 px-4 py-1.5 rounded-full border border-sky-500/20">
+              BNN TECH Founder & Instructor
+            </span>
+            <h1 class="text-4xl lg:text-5xl font-extrabold text-white mt-4">Bo Zin Myo</h1>
+            <p class="text-sky-400 text-lg font-medium mt-1">Enterprise Linux System Administration Specialist</p>
+          </div>
+
+          <p class="text-slate-300 text-base leading-relaxed">
+            Linux system administration တခုတည်းကိုပဲ ၆ နှစ်ကျော် Professional သင်ကြားပေးနေတာဖြစ်ပြီး
+သင်တန်းသား ၉၀၀ ကျော်ကို Certificate ပေးပြီးဖြစ်ပါတယ်။ </br>BNN TECH တွင် Enterprise Linux (Redhat,Rockylinux,Ubuntu,etc...),Linux System Hardening,Linux Networking, Docker နှင့် Automation  သင်တန်းများကို Live(Online) တိုက်ရိုက် Practical Labs များဖြင့် စနစ်တကျ သင်ကြားပေးလျက်ရှိပါသည်။
+          </p>
+
+          <!-- Highlights Grid -->
+          <div class="grid grid-cols-2 md:grid-cols-3 gap-4 pt-2">
+            <div class="bg-slate-900/80 p-4 rounded-2xl border border-slate-800">
+              <div class="text-xs text-slate-400">Distros Focus</div>
+              <div class="text-sm font-bold text-slate-100 mt-1">Enterprise Linux Base</div>
+            </div>
+            <div class="bg-slate-900/80 p-4 rounded-2xl border border-slate-800">
+              <div class="text-xs text-slate-400">Teaching Methodology</div>
+              <div class="text-sm font-bold text-slate-100 mt-1">100% Practical & Troubleshooting </div>
+            </div>
+            <div class="bg-slate-900/80 p-4 rounded-2xl border border-slate-800 col-span-2 md:col-span-1">
+              <div class="text-xs text-slate-400">Platform</div>
+              <div class="text-sm font-bold text-slate-100 mt-1"> Live class ( Brave Talk )</div>
+            </div>
+          </div>
+
+          <!-- CTA Buttons -->
+          <div class="pt-4 flex flex-wrap gap-4">
+            <a href="https://bnntechlinux.com/linux-special-class-course-outline/" target="_blank" class="px-8 py-3 rounded-xl bg-gradient-to-r from-sky-400 to-purple-600 text-white font-bold text-sm uppercase tracking-wider hover:opacity-90 transition-all shadow-lg shadow-sky-500/20">
+              Explore Courses
+            </a>
+            <a href="https://bnntechlinux.com" target="_blank" class="px-8 py-3 rounded-xl glass-card hover:bg-slate-800 text-slate-200 font-bold text-sm uppercase tracking-wider transition-all">
+              Visit Main Website
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Courses Grid Section (Large Screen View) -->
+    <section id="courses" class="w-full">
+      <h2 class="text-2xl font-bold text-white mb-6 flex items-center gap-3">
+        <span class="w-2 h-6 bg-sky-400 rounded-full"></span>
+        Active Special Courses
+      </h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Course 1 -->
+        <div class="glass-card p-6 rounded-2xl border border-slate-800 hover:border-sky-500/50 transition-all">
+          <span class="text-xs font-bold text-sky-400 bg-sky-500/10 px-3 py-1 rounded-full border border-sky-500/20">8 September 2026</span>
+          <h3 class="text-lg font-bold text-white mt-4">Linux basic to Linux system administration</h3>
+          <p class="text-slate-400 text-xs mt-2">အတန်းခွဲ ၁ – အင်္ဂါ ၊ ဗုဒ္ဓဟူး ၊ ကြာသပတေး ( မြန်မာ အချိန် – ည ၈ နာရီ မှ ၉ : ၃၀ နာရီ )</br>
+          သင်ကြားမည့်ပုံစံ – Live Online class + Video record + Home work</br>
+          သင်တန်းကာလ – ၁ လ ခွဲ  ( သင်တန်းသား ဦးရေ ကန့်သတ် ထားပါသည်။) </br>
+          သင်တန်းကြေး – ၃၀၀,၀၀၀ ကျပ် </br>
+</p>
+        </div>
+        <!-- Course 2 -->
+        <div class="glass-card p-6 rounded-2xl border border-slate-800 hover:border-purple-500/50 transition-all">
+          <span class="text-xs font-bold text-purple-400 bg-purple-500/10 px-3 py-1 rounded-full border border-purple-500/20">October 2026</span>
+          <h3 class="text-lg font-bold text-white mt-4">Linux basic to Linux system administration</h3>
+          <p class="text-slate-400 text-xs mt-2">အတန်းခွဲ ၂ – စနေ ၊ တနင်္ဂနွေ ( မြန်မာ အချိန် – ည ၈ နာရီ မှ ၉ : ၃၀ နာရီ )</br>
+
+သင်ကြားမည့်ပုံစံ – Live Online class + Video record + Home work </br>
+သင်တန်းကာလ – ၂ လ … ( သင်တန်းသား ဦးရေ ကန့်သတ် ထားပါသည်။ )</br>
+သင်တန်းကြေး – ၃၀၀,၀၀၀ ကျပ်</br></p>
+        </div>
+        <!-- Course 3 -->
+        <div class="glass-card p-6 rounded-2xl border border-slate-800 hover:border-emerald-500/50 transition-all">
+          <span class="text-xs font-bold text-emerald-400 bg-emerald-500/10 px-3 py-1 rounded-full border border-emerald-500/20">
+          Super Sunday Class - Coming soon ..</span>
+          <h3 class="text-lg font-bold text-white mt-4">Linux basic to Linux system administration</h3>
+          <p class="text-slate-400 text-xs mt-2">အတန်းခွဲ ၂ – တနင်္ဂနွေ ( မြန်မာ အချိန် – မနက် ၉ နာရီ မှ ၁၁:၀၀ နာရီ )</br>
+
+သင်ကြားမည့်ပုံစံ – Live Online class + Video record + Home work </br>
+သင်တန်းကာလ – ၂ လ … ( သင်တန်းသား ဦးရေ ကန့်သတ် ထားပါသည်။ )</br>
+သင်တန်းကြေး – ၃၀၀,၀၀၀ ကျပ်</br></p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="glass-card border-t border-slate-800 py-6 text-center text-xs text-slate-500 w-full mt-10">
+    © bnntechlinux.com — Founded by bzm. All rights reserved.
+  </footer>
+
+</body>
+</html>
